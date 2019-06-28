@@ -1,0 +1,213 @@
+
+<div data-page="home" class="page">
+  <div class="navbar custom-header">
+    <div class="navbar-inner">
+      <div class="left"></div>
+      <div class="center"><img style="margin-top:25px;" width="150" src="img/logo.png"></div>
+        <div class="right"><a style="margin-right:20px;color:#bd0029;display:none;" href="#" class="item-link"><i class="icons material-icons">power_settings_new</i></a></div>
+    </div>
+  </div>
+  <div style="height:50px;" class="toolbar tabbar toolbar-bottom tabbar-labels custom-theme">
+      <div class="toolbar-inner"><a href="#tab-1" class="tab-link active"><i class="icon material-icons">home</i></a><a href="#tab-2" class="tab-link"><i class="icon material-icons">notifications</i><span class="tabbar-label"></span><span style="position:absolute;margin-left:10px;margin-top:-4px;" class="badge custom-badge">0</span></a><a href="#tab-3" class="tab-link"><i class="icon material-icons">person</i><span class="tabbar-label"></span></a><a data-popover=".popover-more" href="#" class="tab-link open-popover"><i class="icon material-icons">more_vert</i><span class="tabbar-label ubuthu"></span></a></div>
+  </div>
+   <div class="page-content custom-header pull-to-refresh-content">
+       
+       <div class="pull-to-refresh-layer">
+      <div class="preloader"></div>
+      <div class="pull-to-refresh-arrow"></div>
+    </div>
+       
+    <div class="tabs">
+      <div id="tab-1" class="tab active"> 
+          
+ <div class="owl-carousel owl-theme">
+
+    <img class="owl-lazy" data-src="img/1.jpg" alt="">
+    <img class="owl-lazy" data-src="img/2.jpg" alt="">
+    <img class="owl-lazy" data-src="img/3.jpg" alt="">
+    <img class="owl-lazy" data-src="img/4.jpg" alt="">
+    <img class="owl-lazy" data-src="img/5.jpg" alt="">
+    <img class="owl-lazy" data-src="img/6.jpg" alt="">
+    
+</div>
+          
+      
+          <div class="content-block-title custom-color osvaldo-bold"><span style="font-size:16px;">Welcome to Bankmed Namibia</span></div>
+    <div class="list-block accordion-list">
+      <ul style="background:white;">
+        <li class="accordion-item"><a href="#" class="item-link item-content">
+            <div class="item-inner"> 
+                <div class="item-title"><i style="color:#B6222D;" class="icon material-icons">person</i>&nbsp;&nbsp;My Details</div>
+            </div></a>
+          <div class="accordion-item-content">
+         
+                  <div class="data-table">
+      <table>
+        <thead>
+          <tr>
+              <th class="label-cell custom-color"><span class="custom-color osvaldo-bold" style="font-size:15px;">First Name</span></th>
+              <th class="numeric-cell custom-color"><span class="custom-color osvaldo-bold" style="font-size:15px;">Last Name</span></th>
+              <th class="numeric-cell custom-color"><span class="custom-color osvaldo-bold" style="font-size:15px;">D.0.B</span></th>
+        
+          </tr>
+        </thead>
+        <tbody class="memberInfoPoint">
+    
+      
+       
+        </tbody>
+      </table>
+    </div>
+              
+          </div>
+        </li> 
+          
+          
+          <li class="accordion-item"><a href="#" class="item-link item-content">
+            <div onclick="hint();" class="item-inner"> 
+              <div class="item-title"><i style="color:#B6222D;" class="icon material-icons">group</i>&nbsp;&nbsp;Family Max Benefit</div>
+            </div></a>
+          <div class="accordion-item-content">
+            <div class="">
+            
+                      
+    <div class="card data-table">
+      <table>
+        <thead>
+          <tr>
+              <th class="label-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Description</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Max</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Used</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Balance</span></th>
+          </tr>
+        </thead>
+        <tbody class="familyBenefitPoint"></tbody>
+      </table>
+    </div>
+                
+                
+            </div>
+          </div>
+        </li>   
+          
+          <li class="accordion-item"><a href="#" class="item-link item-content">
+            <div onclick="hint();" class="item-inner"> 
+              <div class="item-title"><i style="color:#B6222D;" class="icon material-icons">favorite</i>&nbsp;&nbsp;Dependants Maximum Benefits</div>
+            </div></a>
+          <div class="accordion-item-content">
+                  
+    <div class="card data-table">
+      <table>
+        <thead>
+          <tr>
+              <th class="label-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Description</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Max</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Used</span></th>
+              <th class="numeric-cell"><span class="custom-color osvaldo-bold" style="font-size:15px;">Balance</span></th>
+          </tr>
+        </thead>
+        <tbody class="dependantsBenefitsPoint"></tbody>
+      </table>
+    </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+      </div>
+      <div id="tab-2" class="tab">
+        <div class="content-block">
+     
+            
+                  
+    <div class="timeline newsPoint"></div>
+            
+            
+        </div>
+      </div>
+      <div id="tab-3" class="tab"> 
+     
+          
+          <div style="margin-top:-10px;" class="profile-panel profile-panel-orange">
+  <div class="profile-header">
+      <h1 class="custom-color"><span class="memberFullnamePoint"></span></h1>
+    <h2 style="color:black;">
+<span class="memberEmailPoint"></span>    </h2>
+  
+  </div>
+ 
+  <div style="margin-top:-10px;" class="profile-footer">
+    <a onclick="logout();" class="btn" href="#">SIGN OUT</a>
+  </div>
+</div>
+        
+          
+          
+          
+          
+    <form style="margin-top:-10px;">
+      <div class="list-block inputs-list">
+        <ul>
+          <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">First Name</div>
+              <div class="item-input">
+                <input type="text" class="inputMemberFirstnamePoint updateMemberFirstnamePoint"/>
+              </div>
+            </div>
+          </li>
+            <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">Last Name</div>
+              <div class="item-input">
+                <input type="text" class="inputMemberLastnamePoint updateMemberLastnamePoint"/>
+              </div>
+            </div>
+          </li>
+            
+          <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">Member Number</div>
+              <div class="item-input">
+                <input disabled type="text" class="inputMemberMemberNumberPoint updateMemberMemberNumberPoint"/>
+              </div>
+            </div>
+          </li>
+            
+            <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">Date Of Birth</div>
+              <div class="item-input">
+                <input disabled type="text" id="ks-calendar-date-format" class="inputMemberMemberDobPoint"/>
+              </div>
+            </div>
+          </li>
+            
+          <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">Email Address</div>
+              <div class="item-input">
+                <input disabled type="text" class="inputMemberEmailDobPoint"/>
+              </div>
+            </div>
+          </li> 
+            
+          <li class="item-content">
+            <div class="item-inner"> 
+              <div class="item-title label" style="font-size:15px;">Password</div>
+              <div class="item-input">
+                <input type="password" value="********"/>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+  <div class="content-block">
+      <p class="buttons-row"><a href="#" style="background:#10324E;" class="button button-raised button-fill updateAccount">Update Profile</a></p>
+    </div>    
+    </form>
+          
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.custom-header{
+    background-image: url("../img/repeat.png");
+    background-repeat: repeat;
+}
+
+.custom-theme{
+    background-color:#ed253c;
+}
+
+.custom-color-red{
+    color:#ed253c;
+}
+
+.custom-font-size{
+    font-size: 16px;
+}
+
+
+.custom-color{
+    color:#002969;
+}
+
+.custom-badge{
+    background:#002969;
+    color: white;
+}
+.app-cover {
+	background-image: url(../img/bg.png);
+	background-position: center;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 32px 15px;
+	text-align: center;
+}

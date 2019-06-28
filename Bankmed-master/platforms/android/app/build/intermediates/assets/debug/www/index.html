@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#2196f3">
+    <title>Bankmed</title>
+    <link rel="stylesheet" href="css/framework7.material.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/kitchen-sink.css">
+    <link rel="stylesheet" href="css/bankmed.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="icon" href="img/icon.png">
+      
+      <style>
+
+
+
+.profile-panel {
+  width: 340px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 4px;
+  text-align: center;
+  border-bottom: 4px solid #e1e1e5;
+}
+
+.profile-header {
+  padding: 30px 0 30px;
+  color: #3e6372;
+}
+.profile-header h1 {
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0;
+}
+.profile-header h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0 0 1.4em;
+}
+
+.profile-image {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+}
+.profile-image img {
+  max-width: 100%;
+}
+.profile-image .profile-status {
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border: 5px solid #fafaff;
+  border-radius: 100%;
+}
+.profile-image .profile-status.profile-status-away {
+  background: #002969;
+}
+.profile-image img {
+  border-radius: 100%;
+}
+
+.profile-social-links {
+  border-top: 1px solid #e1e1e5;
+  border-bottom: 1px solid #e1e1e5;
+  padding: 12px 0;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #e1e1e5;
+  border-radius: 100%;
+  margin: 0 9px;
+}
+.social-btn i {
+  transition: transform ease 0.1s;
+}
+.social-btn:hover i {
+  transform: scale(1.2);
+  color: #fff;
+}
+.social-btn.twitter {
+  color: #55acee;
+  border-color: #55acee;
+}
+.social-btn.twitter:hover {
+  background: #55acee;
+}
+.social-btn.dribbble {
+  color: #ea4c89;
+  border-color: #ea4c89;
+}
+.social-btn.dribbble:hover {
+  background: #ea4c89;
+}
+.social-btn.instagram {
+  color: #3f729b;
+  border-color: #3f729b;
+}
+.social-btn.instagram:hover {
+  background: #3f729b;
+}
+.social-btn.facebook {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+.social-btn.facebook:hover {
+  background: #3b5998;
+}
+
+.profile-footer {
+  padding: 30px 0;
+}
+
+.profile-panel-orange {
+  border-bottom-color: #ed253c;
+}
+.profile-panel-orange .btn {
+  background: #ed253c;
+}
+.profile-panel-orange .btn:hover {
+  background: #ed253c;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 120px;
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #ed253c;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+
+      
+      </style>
+      
+  </head>
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div data-page="panel-left" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center"></div>
+              </div>
+            </div>
+            <div class="page-content">
+           
+             
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-right panel-reveal">
+      <div class="view view-right">
+        <div class="pages navbar-fixed">
+          <div data-page="panel-right1" class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center"></div>
+              </div>
+            </div>
+            <div class="page-content">
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="views">
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+          <div data-page="index" class="page">
+         
+            <div class="page-content">
+                
+                
+                <iframe width="100%" height="100%" frameborder="0" class="animateDr" src="splash.html"></iframe>
+                
+                
+         
+                <div style="margin-top:0px;text-align:center;">
+                <img width="280" src="img/logo.png">
+                    
+                    <p style="display:none;font-size:20px;" class="greeting">"Bank on your medical aid, invest in your health"</p>
+                </div>
+           
+                
+                
+                  <div style=" position: fixed;bottom: 0;width:100%;height:150px;display:none;" class="bottom-section">
+      <p style="margin-right:0px;" class="buttons-row">
+          <a style="background:#ed253c;" href="login.html" class="button button-raised button-fill">Sign In</a></p>
+                      <p style="margin-right:0px;"><a style="background:#002969;" href="register.html" class="button button-raised button-fill">Create Account</a></p>
+    </div>
+  
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup demo-popup">
+      <div class="view navbar-fixed">
+        <div class="pages">
+          <div class="page">
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Popup Title</div>
+                <div class="right"><a href="#" class="link close-popup">Done</a></div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="content-block">
+                <p>Here comes popup. You can put here anything, even independent view with its own navigation. Also not, that by default popup looks a bit different on iPhone/iPod and iPad, on iPhone it is fullscreen.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus mauris leo, eu bibendum neque congue non. Ut leo mauris, eleifend eu commodo a, egestas ac urna. Maecenas in lacus faucibus, viverra ipsum pulvinar, molestie arcu. Etiam lacinia venenatis dignissim. Suspendisse non nisl semper tellus malesuada suscipit eu et eros. Nulla eu enim quis quam elementum vulputate. Mauris ornare consequat nunc viverra pellentesque. Aenean semper eu massa sit amet aliquam. Integer et neque sed libero mollis elementum at vitae ligula. Vestibulum pharetra sed libero sed porttitor. Suspendisse a faucibus lectus.</p>
+                <p>Duis ut mauris sollicitudin, venenatis nisi sed, luctus ligula. Phasellus blandit nisl ut lorem semper pharetra. Nullam tortor nibh, suscipit in consequat vel, feugiat sed quam. Nam risus libero, auctor vel tristique ac, malesuada ut ante. Sed molestie, est in eleifend sagittis, leo tortor ullamcorper erat, at vulputate eros sapien nec libero. Mauris dapibus laoreet nibh quis bibendum. Fusce dolor sem, suscipit in iaculis id, pharetra at urna. Pellentesque tempor congue massa quis faucibus. Vestibulum nunc eros, convallis blandit dui sit amet, gravida adipiscing libero.</p>
+                <p>Morbi posuere ipsum nisl, accumsan tincidunt nibh lobortis sit amet. Proin felis lorem, dictum vel nulla quis, lobortis dignissim nunc. Pellentesque dapibus urna ut imperdiet mattis. Proin purus diam, accumsan ut mollis ac, vulputate nec metus. Etiam at risus neque. Fusce tincidunt, risus in faucibus lobortis, diam mi blandit nunc, quis molestie dolor tellus ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum turpis a velit vestibulum pharetra. Vivamus blandit dapibus cursus. Aenean lorem augue, vehicula in eleifend ut, imperdiet quis felis.</p>
+                <p>Duis non erat vel lacus consectetur ultricies. Sed non velit dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel varius mi, a tristique ante. Vivamus eget nibh ac elit tempor bibendum sit amet vitae velit. Proin sit amet dapibus nunc, non porta tellus. Fusce interdum vulputate imperdiet. Sed faucibus metus at pharetra fringilla. Fusce mattis orci et massa congue, eget dapibus ante rhoncus. Morbi semper sed tellus vel dignissim. Cras vestibulum, sapien in suscipit tincidunt, lectus mi sodales purus, at egestas ligula dui vel erat. Etiam cursus neque eu lectus eleifend accumsan vitae non leo. Aliquam scelerisque nisl sed lacus suscipit, ac consectetur sapien volutpat. Etiam nulla diam, accumsan ut enim vel, hendrerit venenatis sem. Vestibulum convallis justo vitae pharetra consequat. Mauris sollicitudin ac quam non congue.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popover popover-more">
+      <div class="popover-inner">
+        <div class="list-block">
+          <ul>
+            <li><a href="faq.html" class="list-button item-link">FAQ</a></li>
+            <li><a onclick="checkLocation();" href="#" class="list-button item-link">Hospital Locator</a></li>
+            <li><a onclick="noted();" href="emergency.html" class="list-button item-link">Emergency Medical Services</a></li>
+            <li><a href="service.html" class="list-button item-link">Client Service / Branches</a></li>
+            <li><a onclick="logout();" href="#" class="list-button item-link">Sign Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="popover popover-music">
+      <div class="popover-inner">
+        <div class="list-block media-list">
+          <ul>
+            <li><a href="#" class="item-link item-content">
+                <div class="item-media"><img src="http://lorempixel.com/88/88/people/1" width="44"></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Yellow Submarine</div>
+                  </div>
+                  <div class="item-subtitle">Beatles</div>
+                </div></a></li>
+            <li><a href="#" class="item-link item-content">
+                <div class="item-media"><img src="http://lorempixel.com/88/88/people/2" width="44"></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Don't Stop Me Now</div>
+                  </div>
+                  <div class="item-subtitle">Queen</div>
+                </div></a></li>
+            <li><a href="#" class="item-link item-content">
+                <div class="item-media"><img src="http://lorempixel.com/88/88/people/3" width="44"></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Billie Jean</div>
+                  </div>
+                  <div class="item-subtitle">Michael Jackson</div>
+                </div></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="popover popover-contacts">
+      <div class="popover-inner">
+        <div class="list-block media-list">
+          <ul>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/people/1" width="40"></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Ali Connors</div>
+                </div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/people/2" width="40"></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Sandra Adams</div>
+                </div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-media"><img src="http://lorempixel.com/88/88/people/3" width="40"></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="item-title">Trevor Hansen</div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#" class="item-link item-content bg-purple color-white ripple-white">
+                <div class="item-media"><i class="icon material-icons">mode_edit</i></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Add New</div>
+                  </div>
+                </div></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="login-screen">
+      <div class="view">
+        <div class="page">
+          <div class="page-content login-screen-content">
+            <div class="login-screen-title">Framework7</div>
+            <form>
+              <div class="list-block inputs-list">
+                <ul>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Username</div>
+                      <div class="item-input">
+                        <input type="text" name="username" placeholder="Your username">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Password</div>
+                      <div class="item-input">
+                        <input type="password" name="password" placeholder="Your password">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content-block"><a href="#" class="button button-big">Sign In</a></div>
+              <div class="content-block">
+                <div class="list-block-label">Some text about login information.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="picker-modal picker-modal-demo">
+      <div class="toolbar">
+        <div class="toolbar-inner">
+          <div class="left"></div>
+          <div class="right"><a href="#" class="link close-picker">Done</a></div>
+        </div>
+      </div>
+      <div class="picker-modal-inner">
+        <div class="content-block">Integer mollis nulla id nibh elementum finibus. Maecenas eget fermentum ipsum. Sed sagittis condimentum nisl at tempus. Duis lacus libero, laoreet vitae ligula a, aliquet eleifend sapien. Nullam sodales viverra sodales.</div>
+      </div>
+    </div>
+          <script type="text/javascript" src="cordova.js"></script>
+          <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <script type="text/javascript" src="js/kitchen-sink.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/bankmed.js"></script>
+    <script type="text/javascript" src="js/users.js"></script>
+      <script>
+      
+          $('document').ready(function(){
+              
+              $('.hide-navbar').hide();
+              
+              setTimeout(function(){
+                  if(window.localStorage.getItem("isBankmedUserLogged")==null || window.localStorage.getItem("isBankmedUserLogged")=="" || window.localStorage.getItem("isBankmedUserLogged")==0){
+                  
+                  animate(); 
+              }else{
+                mainView.router.loadPage("home.html");  
+                  
+              }
+                  
+              },2500)
+              
+            
+              
+              
+             // mainView.router.loadPage("home.html");
+          })
+          
+          
+          document.addEventListener("backbutton", OnBackPressed, false);
+          
+          function OnBackPressed(){
+              
+              var currentPage = mainView.activePage.name;
+              
+              if(currentPage=="home" || currentPage =="index.html"){
+                  
+                  myApp.confirm("Exit the App?", function(){
+                      
+                      
+                      navigator.app.exitApp();
+                      
+                  })
+                  
+              }else{
+                  
+                  mainView.router.back();
+                  
+              }
+              
+          }
+          
+          
+          function animate(){
+             $('.animateDr').hide();
+              $('.bottom-section').show().fadeIn(2000);
+              $('.greeting').show().fadeIn(2000);
+              
+          }
+          
+          
+          
+          
+          function checkLocation(){
+
+cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
+    
+  
+
+if(enabled==true){
+
+
+mainView.router.loadPage("map.html");    
+
+}else{
+
+
+    myApp.confirm("You need to enable your device location. Enable now?", function(){
+        
+        cordova.plugins.diagnostic.switchToLocationSettings();
+    })
+    
+}
+
+   },
+    function(error){
+       myApp.alert("The following error occurred:"+error);
+    });
+
+}
+          
+          
+          
+          
+          function logout(){
+              
+              myApp.confirm("Are you sure you want to logout?", function(){
+                  window.localStorage.setItem("isBankmedUserLogged", 0);
+                  mainView.router.loadPage("index.html");
+                  setTimeout(function(){
+                    animate();  
+                  },1000);
+                  
+                  
+              })
+              
+          }
+       
+          
+         
+          
+          
+          function callService(number){
+              
+              window.open('tel:'+number,'_system');
+          }
+          
+          
+      </script>
+  </body>
+</html>

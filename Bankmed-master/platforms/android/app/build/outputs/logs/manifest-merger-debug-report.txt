@@ -1,0 +1,184 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+MERGED from [:CordovaLib] C:\xampp\htdocs\Bankmed\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:102-131
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:132-190
+	android:versionCode
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.intouch.bankmed.MainActivity
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+uses-sdk
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
+MERGED from [:CordovaLib] C:\xampp\htdocs\Bankmed\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\xampp\htdocs\Bankmed\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:13:42-71
+	android:minSdkVersion
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:13:15-41
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:15:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:16:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\xampp\htdocs\Bankmed\platforms\android\app\src\main\AndroidManifest.xml:17:22-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\dcc0fdc10d3d0dd4c53a9d396e971f9f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9064712e12ac4971d81e9fd228949211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\7f8f7bf49a2d637fbcbcc6fb8caadc86\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4a2905419be8c3b05138e9c44b8fc221\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\0f2a2e0b0c62699ef35038e8322ada57\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\c75c2a19feeb0a314fe4a989b78467fe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\01b1bb0bd61905c6ddf9af7fcc6e98b9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\56f2873fad2f5f7670726500051da79e\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4e9cb0280e24147532178800b140d968\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4bec5ff48db92cec76136e9b2b379e6e\AndroidManifest.xml:26:13-58

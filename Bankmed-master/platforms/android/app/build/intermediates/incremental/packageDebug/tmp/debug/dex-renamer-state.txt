@@ -1,0 +1,4 @@
+#Mon Mar 25 16:58:28 WAST 2019
+base.0=C\:\\xampp\\htdocs\\Bankmed\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+path.0=classes.dex
+renamed.0=classes.dex
